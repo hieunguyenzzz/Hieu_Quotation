@@ -1,0 +1,15 @@
+<?php
+?>
+
+<button id="quotation-button">Submit quote</button>
+<script type="text/x-magento-init">
+    {
+        "#quotation-button": {
+            "Hieu_Quotation/js/quotation": {
+                "quotePostUrl": "<?= $block->getQuotePostUrl() ?>"
+            }
+        }
+    }
+
+</script>
+
